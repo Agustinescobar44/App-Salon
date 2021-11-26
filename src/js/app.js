@@ -128,7 +128,7 @@ function botonesPaginador() {
 async function mostrarServicios() {
     
     try {
-        const url = '../../servicios.json'; 
+        const url = 'servicios.json'; 
         const resultado = await fetch(url); //con fetch le decimos a js que es un js y lo convierta en un array
         const db = await resultado.json();
 

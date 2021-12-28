@@ -24,7 +24,7 @@ body{
     width: 95%;
     margin: 0 auto;
     padding-top: $separacion /2;
-
+    overflow-y: scroll;
     .seccion{
         display: none;
         margin-top: $separacion/2;
